@@ -1,0 +1,91 @@
+﻿*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    border: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    font-family:'Microsoft YaHei';
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.et-container{
+    min-width: 320px;
+    min-height: 763px;
+    margin: 0 auto;
+    background-color:#eee;
+}
+/*
+.header{
+    min-width: 320px;
+    max-height: 640px;
+    height: 40px;
+    line-height: 40px;
+    background-color: orange;
+    z-index: 10;
+    color: #fff;
+}
+.header .logo{
+    padding:0 20px;
+}
+.header .logo a{
+    display: inline-block;
+    width: 56px;
+    height: 21px;
+    text-indent:-9999px;
+    margin-top:10px;
+}
+.header .writer-search{
+    width: 55%;
+    height: 30px;
+    margin: 4px 0 0 15px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+.header .writer-search:after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    left:0;
+    bottom:0;
+    background-color: #fff;
+}
+.header .writer-search:before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    right:0;
+    bottom:0;
+    background-color: #fff;
+
+}
+.header .writer-search span{
+    display: inline-block;
+    width: 8%;
+    height: 100%;
+    text-align: right;
+}
+.header .writer-search span i{
+    font-size: 20px;
+    vertical-align: 5px;
+}
+.header .writer-search .productName{
+    display: inline-block;
+    width: 88%;
+    height: 100%;
+    line-height: 30px;
+    background-color: transparent;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    vertical-align: 5px;
+}
+.content{
+    background: #ebebeb;
+}*/
