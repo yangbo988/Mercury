@@ -130,3 +130,7 @@
     color: #ff6633;
     border-bottom:1px solid #ff6633;
 }
+.goods-detail-intro .info-show-list .detail {
+    margin: 15px 15px 0;
+    padding-bottom:50px;
+}
