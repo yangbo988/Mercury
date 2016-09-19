@@ -22,13 +22,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="modules/Index/static/image/goodsDetail/goods1-1.jpg" alt="" width="100%" height="100%">
+                    <img src="modules/Index/static/image/goodsDetail/goods1-1.jpg" alt="" width="100%" height="320px">
                 </div>
                 <div class="item">
-                    <img src="modules/Index/static/image/goodsDetail/goods1-2.jpg" alt="" width="100%" height="100%">
+                    <img src="modules/Index/static/image/goodsDetail/goods1-2.jpg" alt="" width="100%" height="320px">
                 </div>
                 <div class="item">
-                    <img src="modules/Index/static/image/goodsDetail/goods1-3.jpg" alt="" width="100%" height="100%">
+                    <img src="modules/Index/static/image/goodsDetail/goods1-3.jpg" alt="" width="100%" height="320px">
                 </div>
             </div>
 
@@ -58,19 +58,39 @@
         </div>
     </div>
     <div class="goods-detail-intro">
-        <ul class="info-title-bar clearfix">
+        <my-tabs>
+            <my-pane tittle="商品详情">
+                <ul class="detail">
+                    <li><img src="modules/Index/static/image/goodsDetail/detail-1.jpg" alt="" width="100%"></li>
+                </ul>
+            </my-pane>
+            <my-pane tittle="本店成交">
+                <ul class="deal-info">
+                    <li class="info-header"><span class="buyer-item">买家</span><span class="time-item">成交时间</span><span class="num-item">数量</span></li>
+                    <li><span class="buyer-item">杨*</span><span class="time-item">09-19 16:09:56</span><span class="num-item">2</span></li>
+                    <li><span class="buyer-item">杨*</span><span class="time-item">09-19 16:09:56</span><span class="num-item">2</span></li>
+                    <li><span class="buyer-item">杨*</span><span class="time-item">09-19 16:09:56</span><span class="num-item">2</span></li>
+                    <li><span class="buyer-item">杨*</span><span class="time-item">09-19 16:09:56</span><span class="num-item">2</span></li>
+                    <li><span class="buyer-item">杨*</span><span class="time-item">09-19 16:09:56</span><span class="num-item">2</span></li>
+                </ul>
+                <div class="loading-info">已经没有更多了</div>
+            </my-pane>
+        </my-tabs>
+        <!--<ul class="info-title-tab clearfix">
             <li class="info-bar-item active">商品详细</li>
             <li class="info-bar-item">本店成交</li>
         </ul>
-        <div class="info-show-list">
-            <ul class="detail">
-                <li><img src="modules/Index/static/image/goodsDetail/detail-1.jpg" alt="" width="100%"></li>
-            </ul>
-        </div>
-        <div class="info-show-list">
-            <ul class="list">
-                <li></li>
-            </ul>
-        </div>
+        <div class="tab-content">
+            <div class="info-show-list">
+                <ul class="detail">
+                    <li><img src="modules/Index/static/image/goodsDetail/detail-1.jpg" alt="" width="100%"></li>
+                </ul>
+            </div>
+            <div class="info-show-list">
+                <ul class="list">
+                    <li></li>
+                </ul>
+            </div>
+        </div>-->
     </div>
 </div>

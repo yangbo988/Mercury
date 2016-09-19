@@ -112,25 +112,63 @@
     background-color: #fff;
     margin-top: 15px;
 }
-.goods-detail-intro .info-title-bar{
+.goods-detail-intro .info-title-tab{
     width: 100%;
+    border-top:1px solid #e4e4e4;
+    margin-bottom:0;
+}
+.goods-detail-intro .info-title-tab .info-bar-item{
+    width: 50%;
     height: 40px;
     line-height: 40px;
-    border-top:1px;solid #e4e4e4;
-}
-.goods-detail-intro .info-title-bar .info-bar-item{
-    width: 50%;
     float:left;
-    font-size:15px;
     color:#000;
     text-align: center;
     border-bottom:1px solid #e4e4e4;
 }
-.goods-detail-intro .info-title-bar .info-bar-item.active{
-    color: #ff6633;
+.goods-detail-intro .info-title-tab .info-bar-item a{
+    color: #000;
+    font-size:16px;
+}
+.goods-detail-intro .info-title-tab .info-bar-item.active{
     border-bottom:1px solid #ff6633;
+}
+.goods-detail-intro .info-title-tab .info-bar-item.active a{
+    color: #ff6633;
 }
 .goods-detail-intro .info-show-list .detail {
     margin: 15px 15px 0;
     padding-bottom:50px;
+}
+.goods-detail-intro .info-show-list .deal-info li{
+    width: 100%;
+    height:36px;
+    line-height:36px;
+    font-size: 14px;
+    border-bottom:1px solid #e4e4e4;
+}
+.goods-detail-intro .info-show-list .deal-info li.info-header{
+    background-color: #f0f0f0;
+}
+.goods-detail-intro .info-show-list .deal-info li span{
+    display: inline-block;
+    text-align: center;
+}
+.goods-detail-intro .info-show-list .deal-info li .buyer-item{
+    width: 20%;
+    color: #666;
+}
+.goods-detail-intro .info-show-list .deal-info li .time-item{
+    width: 50%;
+    color: #999;
+}
+.goods-detail-intro .info-show-list .deal-info li .num-item{
+    width: 30%;
+    color: #666;
+}
+.goods-detail-intro .info-show-list .loading-info {
+    height:50px;
+    line-height: 50px;
+    color: #999;
+    text-align: center;
 }
